@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Submission</title>
+</head>
+<body>
+    {% csrf_token %}
+    <h1>Thank you for contacting us</h1>
+    <p><a href="{% url 'user_ticket_submission' %}">Write another problem</a></p>
+</body>
+</html>
